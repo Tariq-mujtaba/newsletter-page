@@ -11,7 +11,8 @@
 
 ## Overview
 
-![Newsletter Subscription Form Screenshot](https://github.com/Tariq-mujtaba/newsletter-page/raw/main/resources/Screenshot.png)
+![Newsletter Subscription Form Screenshot](https://github.com/Tariq-mujtaba/newsletter-page/raw/main/resources/Screenshot.jpg)
+
 
 This project is a simple and modern newsletter subscription form designed to engage users in subscribing to a newsletter. The form includes a user-friendly interface with an input field for entering an email address, a submit button, and a helper text to reassure the user about privacy. The layout is clean and responsive, ensuring it looks great on both mobile and desktop devices.
 
@@ -51,6 +52,6 @@ This project is a simple and modern newsletter subscription form designed to eng
 
 ## Contact
 
-- **Your Name**  
+- **Tariq Mujtaba**  
   [LinkedIn](https://www.linkedin.com/in/tariqmujtaba)  
   [GitHub](https://github.com/tariq-mujtaba)
