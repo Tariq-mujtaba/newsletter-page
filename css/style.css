@@ -1,0 +1,124 @@
+:root {
+  --text-heading: 3rem;
+  --text-subheading: 1.25rem;
+  --text-placeholder: 1rem;
+  --text-button: 1rem;
+  --text-helper: 0.875rem;
+
+  --color-bg: #ffffff;
+  --color-heading: #000000;
+  --color-para: #6c727f;
+  --color-inputfield: #f9fafb;
+  --color-placeholer: #394150;
+  --color-button: #284bce;
+  --color-border: #e5e7eb;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100svh;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bg);
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 550px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.newsletter {
+  background-color: var(--color-bg);
+  padding: 1em;
+}
+
+.newsletter__content {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.content__logo {
+  margin-bottom: 16px;
+}
+
+.content__heading {
+  font-size: var(--text-heading);
+  font-size: clamp(2rem, 0.335rem + 4.17vw, 3rem);
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-inline: 0.5em;
+  line-height: 1.2;
+}
+
+.content__para {
+  font-size: var(--text-subheading);
+  font-weight: 400;
+  color: var(--color-para);
+  margin-bottom: 16px;
+
+  margin-inline: -1em;
+}
+
+.newsletter_form {
+  padding-inline: 1.25em;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+    0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 1em;
+  /* width: 80%; */
+  margin-inline: auto;
+  padding-block: 24px;
+}
+
+.form__inputfield {
+  display: block;
+  width: 100%;
+  padding: 20px 40px;
+  border: var(--color-border) 2px solid;
+  border-radius: 0.8em;
+  outline: none;
+  background-color: var(--color-inputfield);
+  margin-block: 24px;
+  font-size: var(--text-placeholder);
+}
+.form__inputfield::placeholder {
+  text-align: center;
+  color: var(--color-placeholer);
+  font-size: var(--text-placeholder);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.form__submitbtn {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding-block: 20px;
+  background-color: var(--color-button);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.8em;
+  font-size: var(--text-button);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-block: 24px;
+  transition: background-color 0.4s ease-out;
+}
+.form__submitbtn:focus,
+.form__submitbtn:hover {
+  background-color: var(--color-placeholer);
+}
+
+.form__helpertext {
+  font-size: var(--text-helper);
+  color: var(--color-para);
+  text-align: center;
+}
